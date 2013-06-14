@@ -1,85 +1,195 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-
-  <title>Runys.github.com</title>
-  <meta name="description" content="Webpage">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Tiago Pereira</title>
+	<!--Style -->
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/docs.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css"><!--Font Awesome-->
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/git-curriculum.css">
+	<!--End Style -->
 </head>
 
 <body>
+	<div class="container-fluid">
+		
+		<!-- Barra no topo -->
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<center>
+					<!-- centralizar isso aqui -->
+					<!-- <a href="#" class="brand">Git Curriculum</a> -->
+				</center>
+				</div>
+			</div>
+		</div>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Runys.github.com</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">Webpage</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/runys" class="code">View Runys.github.com on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>Welcome to GitHub Pages.</h3>
+		<!-- Cabeçalho -->
+		<header class="jumbotron subhead">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	    	<div class="container">
+				<div class="row">
+					
+					<div class="span3">
+						<!-- Tentar usar gravatar aqui -->
+						<img src="http://www.gravatar.com/avatar/9ea84a2227ce19fc3f1d22def545d7a5?s=200" alt="img" width="200" heigth="200" class="img-polaroid">
+					</div>
+					
+					<div class="span9">
+						<div class="row">
+							<h1>Tiago Pereira</h1>
+						</div>
+						<div class="row">
+							<div class="span3">
+								<center>
+									<h3>Contact</h3>
+									<ul class="nav">
+										<li>  <a href="https://twitter.com/tiagogogo"> <i class="icon-twitter"></i>@tiagogogo</a></li>
+										<li><i class="icon-envelope-alt"></i> tiagogomespereira@gmail.com</li>
+									</ul>
+								</center>
+							</div>
+							<div class="span3">
+								<center>
+									<h3>Social</h3>
+									<ul class="nav">
+										<li><a href="https://plus.google.com/117427615580356356902/about"><i class="icon-google-plus"></i> Google +</a></li>
+										<li><a href="https://www.facebook.com/pereira.gomes.tiago"><i class="icon-facebook-sign"></i> Facebook</a></li>
+									</ul>
+								</center>
+							</div>
+							<div class="span3">
+								<center>
+									<h3>Work</h3>
+									<ul class="nav">
+										<li><a href="https://github.com/runys"><i class="icon-github"></i> @runys</a></li>
+										<li><a href="http://www.linkedin.com/profile/view?id=252523283&trk=tab_pro"><i class="icon-linkedin-sign"></i> Linkedin</a></li>
+									</ul>
+								</center>
+							</div>
+						</div>
+					</div>
+	    	    </div>
+	    	</div>
+	    </header>
+		
+		<br>
+		
+		<!-- Formação e Experiencia -->
+		<div class="container">
+			<div class="row-fluid">
+				<!-- Formacao -->
+				<div class="span6">
+					<!-- mudar o tamanho disso -->
+					<div class="jumbotron jumbotron-title"><h2>Formação</h2></div>
+					<br>
+					<div class="row-fluid">
+						<div class="span3 well"><center><i class="icon-star icon-4x"></i></center></div>
+						<div class="span9">					
+							<h3>Universidade de Brasília</h3>
+							<p>Engenharia de Software <br>
+							2009 - 2014</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Experiencia -->
+				<div class="span6">
+					<div class="jumbotron jumbotron-title"><h2>Experiencia</h2></div>
+					<br>
+					<!-- Objeto -->
+					<div class="row-fluid">
+						<div class="span3 well"><center><i class="icon-rocket icon-4x"></i></center></div>
+						<div class="span3">					
+							<h3>Local</h3>
+							<p>Função<br>xxxx - xxxx</p>
+						</div>
+					</div>
+					<!-- Outro objeto -->
+					<div class="row-fluid">
+						<div class="span3 well"><center><i class="icon-rocket icon-4x"></i></center></div>
+						<div class="span3">					
+							<h3>Local</h3>
+							<p>Função<br>xxxx - xxxx</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+			<!-- Portifolio -->
+			<div class="row-fluid">
+				<!-- titulo -->
+				<div class="jumbotron jumbotron-title"><center><h2>Portifólio</h2></center></div>
+				<br>
+				<!-- primeira linha de projetos -->
+				<div class="row-fluid">
+					<div class="span4 well">
+						<div class="span6"><center><i class="icon-lemon icon-4x"></i></center></div>
+						<div class="span6">					
+							<h3>Projeto</h3>
+							<p class="muted"><strong>linguagem</strong></p>
+							<p>Description of the project</p>
+						</div>
+					</div>
+					<div class=" well span4">
+						<div class="span6"><center><i class="icon-lemon icon-4x"></i></center></div>
+						<div class="span6">					
+							<h3>Projeto</h3>
+							<p class="muted"><strong>linguagem</strong></p>
+							<p>Description of the project</p>
+						</div>
+					</div>
+					<div class="well span4">
+						<div class="span6"><center><i class="icon-lemon icon-4x"></i></center></div>
+						<div class="span6">					
+							<h3>Projeto</h3>
+							<p class="muted"><strong>linguagem</strong></p>
+							<p>Description of the project</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- segunda linha de projetos -->
+				<div class="row-fluid">
+					<div class="well span4">
+						<div class="span6"><center><i class="icon-lemon icon-4x"></i></center></div>
+						<div class="span6">					
+							<h3>Projeto</h3>
+							<p class="muted"><strong>linguagem</strong></p>
+							<p>Description of the project</p>
+						</div>
+					</div>
+					<div class="well span4">
+						<div class="span6"><center><i class="icon-lemon icon-4x"></i></center></div>
+						<div class="span6">					
+							<h3>Projeto</h3>
+							<p class="muted"><strong>linguagem</strong></p>
+							<p>Description of the project</p>
+						</div>
+					</div>
+					<div class="well span4">
+						<div class="span6"><center><i class="icon-lemon icon-4x"></i></center></div>
+						<div class="span6">					
+							<h3>Projeto</h3>
+							<p class="muted"><strong>linguagem</strong></p>
+							<p>Description of the project</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<br>
+		</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+		<footer class="footer jumbotron">
+			<p>Git Currriculum Theme by Tiago Pereira<p>
+			<p>2013</p>
+		</footer>
+	</div>
 
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-
-      <p><a href="https://github.com/runys" class="avatar"><img src="https://secure.gravatar.com/avatar/9ea84a2227ce19fc3f1d22def545d7a5?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a>View <a href="https://github.com/runys">runys</a> on <a href="https://www.github.com">GitHub</a></p>
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/runys/runys.github.com/tarball/master" class="tar">tar</a><a href="https://github.com/runys/runys.github.com/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
 </body>
 </html>
