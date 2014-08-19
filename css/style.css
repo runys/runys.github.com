@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.title {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    font-size: 4em;
+    margin-top: 25px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 2.1em;
+    font-family: 'Pacifico', cursive;
+}
+.mail {
+    text-align: center;
+    font-size: 1.5em
+}
+.menu-sites {
+    font-size: 3.5em;
+    text-align: center
+}
+.nav-projetos {
+    width: 100%
+}
+.img-nav {
+    width: 75px;
+    height: 75px
+}
+.descricao {
+    margin-top: 20px;
+}
+.descricao img {
+    width: 100%
+}
+#project-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+}
+.role {
+    font-size: 1.5em
+}
+.status {
+    color: red
+}
+#project-status {
+    font-size: 1.5em
+}
+#project-image {
+    width: 75%;
+    height: 75%
+}
