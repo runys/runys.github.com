@@ -1,7 +1,5 @@
 $(function () {
 
-    //var activeElement = $('#cookbook');
-
     $('#save4thewin').click(function (e) {
         e.preventDefault();
         $('#project-title').text("Save 4 the Win");
@@ -9,9 +7,6 @@ $(function () {
         $('#project-roles').html('<span class="label label-info">Lead Artist</span> <span class="label label-info">Game Designer</span>');
         $('#project-image').attr('src', 'img/temp.svg');
         $('#project-description').text('A game where you have to save money to be successful!');
-        //activeElement.toggleClass('active');
-        //activeElement = $(this);
-        //$(this).toggleClass('active');
     });
 
     $('#cookbook').click(function (e) {
@@ -67,4 +62,6 @@ $(function () {
         $('#project-image').attr('src', 'img/generaldogs_icon.png');
         $('#project-description').text("You are the Major. Your nation's leader. Your people relies on you. It's up to you to fulfill their needs. It's up to you to keep them happy. Don't you ever forget that it's up to them that you remain in power.");
     });
+
+    $('#cookbook').trigger('click');
 });
