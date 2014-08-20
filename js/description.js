@@ -64,4 +64,16 @@ $(function () {
     });
 
     $('#cookbook').trigger('click');
+
+    $('a').click(function () {
+        $('li').each(function () {
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active').addClass('normal');
+            }
+        });
+        var liOwner = $(this).parent();
+        if (liOwner.hasClass('normal')) {
+            liOwner.removeClass('normal').addClass('active');
+        }
+    });
 });
