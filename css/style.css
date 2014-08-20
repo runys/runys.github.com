@@ -2,6 +2,9 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #fafafa
 }
+.container {
+    background-color: #fafafa
+}
 .title {
     text-align: center;
     font-family: 'Pacifico', cursive;
@@ -16,11 +19,42 @@ body {
 }
 .mail {
     text-align: center;
-    font-size: 2.5em
+    font-size: 2.5em;
 }
 .menu-sites {
     font-size: 4.5em;
-    text-align: center
+    text-align: center;
+}
+.menu-sites > a {
+    color: #ccc
+}
+.menu-sites > a#behance:hover,
+.menu-sites > a#behance:focus {
+    color: #1769ff
+}
+.menu-sites > a#dribbble:hover,
+.menu-sites > a#dribbble:focus {
+    color: #ea4c89
+}
+.menu-sites > a#facebook:hover,
+.menu-sites > a#facebook:focus {
+    color: #3b5998
+}
+.menu-sites > a#twitter:hover,
+.menu-sites > a#twitter:focus {
+    color: #55acee
+}
+.menu-sites > a#google:hover,
+.menu-sites > a#google:focus {
+    color: #dd4b39
+}
+.menu-sites > a#github:hover,
+.menu-sites > a#github:focus {
+    color: #333
+}
+.menu-sites > a#bitbucket:hover,
+.menu-sites > a#bitbucket:focus {
+    color: #205081
 }
 .nav-projetos {
     width: 100%;
