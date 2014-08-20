@@ -1,5 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #fafafa
 }
 .title {
     text-align: center;
@@ -51,6 +52,13 @@ body {
 #project-description {
     font-size: 1.25em
 }
-.active {
-    border-color: blue
+.nav-pills > li.active > a {
+    border-radius: 50%;
+    background-color: #333;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    background-color: #000;
 }

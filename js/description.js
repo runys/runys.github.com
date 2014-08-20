@@ -5,7 +5,7 @@ $(function () {
         $('#project-title').text("Save 4 the Win");
         $('#project-status').html('<span id="" class="label label-warning">In Progress</span>');
         $('#project-roles').html('<span class="label label-info">Lead Artist</span> <span class="label label-info">Game Designer</span>');
-        $('#project-image').attr('src', 'img/temp.svg');
+        $('#project-image').attr('src', 'img/save4thewin_icon.svg');
         $('#project-description').text('A game where you have to save money to be successful!');
     });
 
@@ -32,7 +32,7 @@ $(function () {
         $('#project-title').text("ClickColor");
         $('#project-status').html('<span id="" class="label label-success">Done</span>');
         $('#project-roles').html('<span class="label label-info">Lead Artist</span> <span class="label label-info">Game Designer</span> <span class="label label-info">Programmer</span>');
-        $('#project-image').attr('src', 'img/temp.svg');
+        $('#project-image').attr('src', 'img/clickcolor_icon.svg');
         $('#project-description').text('Do you think you are smart? Test your brain in this smart puzzle game where you only have one objective paint the screen with only one color.');
     });
 
@@ -41,7 +41,7 @@ $(function () {
         $('#project-title').text("Ninja Siege");
         $('#project-status').html('<span id="" class="label label-success">Done</span>');
         $('#project-roles').html('<span class="label label-info">Lead Artist</span> <span class="label label-info">Game Designer</span> <span class="label label-info">Programmer</span>');
-        $('#project-image').attr('src', 'img/temp.svg');
+        $('#project-image').attr('src', 'img/ninjasiege_icon.svg');
         $('#project-description').text("The ninjas are having their milenar reunion on the top of the ninja tower this year. But unfortunaly their worst enemies, have heard of this event and took advantage of this to surround the ninjas into their tower and kill them all for once. It up to you, the master ninja, to guide your ninja army in this awesome tower defense game, to lead them to the victory against the pirates.");
     });
 
@@ -50,7 +50,7 @@ $(function () {
         $('#project-title').text("Space Marines");
         $('#project-status').html('<span id="" class="label label-warning">In Progress</span>');
         $('#project-roles').html('<span class="label label-info">Lead Artist</span>');
-        $('#project-image').attr('src', 'img/temp.svg');
+        $('#project-image').attr('src', 'img/spacemarines_icon.svg');
         $('#project-description').text('Marines marines marines marines marines marines marines marines marines.');
     });
 
