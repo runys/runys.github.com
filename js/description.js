@@ -63,8 +63,6 @@ $(function () {
         $('#project-description').text("You are the Major. Your nation's leader. Your people relies on you. It's up to you to fulfill their needs. It's up to you to keep them happy. Don't you ever forget that it's up to them that you remain in power.");
     });
 
-    $('#cookbook').trigger('click');
-
     $('a').click(function () {
         $('li').each(function () {
             if ($(this).hasClass('active')) {
@@ -76,4 +74,6 @@ $(function () {
             liOwner.removeClass('normal').addClass('active');
         }
     });
+
+    $('#cookbook').trigger('click');
 });
